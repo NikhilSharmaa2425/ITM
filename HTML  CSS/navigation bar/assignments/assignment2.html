@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent {
+            background-image: linear-gradient(rgb(253, 172, 172),rgb(107, 107, 107));
+            height: 100vh;
+            width: 100vw;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: black;
+            display: flex;
+            color: white;
+            padding: 10px;
+            box-shadow: 3px 3px 5px rgb(53, 50, 50);
+            justify-content: space-evenly;
+            gap: 8rem;
+            /* cursor: pointer; */
+        }
+
+        .menu {
+            padding-top: 3px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 4rem;            
+        }
+
+      .btn {
+        height: 110%;
+        width: 5.5rem;
+        background-color: rgb(184, 53, 184);
+        color: white;
+        border-radius: 14px;
+      }
+
+      .logo {
+        margin-left: -4rem;
+      }
+
+        .logo , .menu , .btn {
+            cursor: pointer;
+        }
+
+        .contact {
+            margin-right: -50px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <nav>
+
+            <div class="logo">
+                <h1>LOGOBAKERY</h1>
+            </div>
+
+            <div class="menu">
+                <span>
+                    Services
+                </span>
+                <span>
+                    Projects
+                </span>
+                <span>
+                    About
+                </span>
+            </div>
+
+            <div class="contact">
+                <button class="btn">Contacts</button>
+            </div>
+
+        </nav>
+    </div>
+    
+</body>
+</html>

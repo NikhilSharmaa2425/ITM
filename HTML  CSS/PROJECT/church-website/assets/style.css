@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    font-family: "Kanit", sans-serif;
+}
+
+/* .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;  
+    font-variation-settings: 'OPSZ' 24;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  } */
+
+
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    /* border: solid red; */
+}
+
+.background {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/header-img.jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: brightness(30%);
+}
+
+.header-content {
+    position: relative;
+    top: -450px;
+    color: white;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+    /* border: solid yellow; */
+}
+
+.headingg {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header-description {
+    font-style: italic;
+}
+
+.header-btn {
+    padding: 8px 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+
+}
+.state-heading {
+    width: 100%;
+    /* border: solid; */
+}
+
+#state {
+    height: 70vh;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    padding: 3% 10%;
+}
+
+.state-cards-container {
+    /* border: solid; */
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+
+.state-card {
+    height: 100%;
+    /* border: solid red; */
+    padding: 15px;
+    text-align: center;
+}
+
+.state-icon {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid yellow; */
+    width: 100%;
+   
+}
+
+.state-icon span {
+    font-size: 48px;
+    color: red;
+}
+
+#event-red {
+    height: 20vh;
+    width: 100vw;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.read-more {
+    padding: 10px 30px;
+    margin: 20px 0 0 0;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.events h2 {
+    font-weight: 400;
+    /* font-size: 2rem; */
+}
+
+
+#address {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.address-container {
+    height: 60%;
+    width: 70%;
+    display: flex;
+}
+
+.address-details {
+    padding: 5%;    
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.small-heading {
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.address-details p {
+    color: red;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    width: 40%;
+}
+
+.time {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+.num {
+    font-size: 2.5rem;
+}
+
+/* our events sectionm satrts here */
+
+#our-events {
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    
+}
+
+.event-card-container {
+    height: 80%;
+    width: 95%;
+    /* border: dashed red; */
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px ;
+}
+
+.event-card {
+    /* border: 5px dashed blue; */
+    width: 25%;
+    /* text-align: center; */
+}
+
+.event-card img {
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+}
+
+.addr {
+    color: red;
+}
+
+.material-symbols-outlined {
+    padding-top: 5px;
+}
+
+.event-card-description {
+    margin-top: 30px;
+    color: black;
+}

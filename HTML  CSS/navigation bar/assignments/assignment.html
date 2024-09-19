@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent {
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+            padding-top: 50px;
+        }
+        .navv {
+            height: 50px;
+            width: 100%;
+            border: 1px solid black;
+            /* margin-top: 50px; */
+            background-image: linear-gradient(rgb(97, 83, 83),rgb(34, 3, 3));
+        }
+        .navv {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 5px 2px 8px white;
+        }
+        ul {
+            display: flex;
+            gap: 1.2rem;
+        }
+
+        li {
+            color: white;
+            list-style-type: none;
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+
+        .righti {
+            margin-right: 30px;
+        }
+        .btn {
+            height: 90%;
+            margin: 2px 0px;
+            width: 70px;
+            background-color: rgb(211, 211, 56);
+            color: white;
+            margin-left: -4px;
+            border: none;
+        }
+        .searchh {
+            height: 90%;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="navv">
+            <div class="lefti">
+                <ul>
+                    <li>home</li>
+                    <li>Gallery</li>
+                    <li>Event</li>
+                    <li>Feedback</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="righti">
+                <input class="searchh" type="text" placeholder="Search">
+                <button class="btn">Search</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

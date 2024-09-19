@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            border: 2px solid black;
+            display: flex;
+            background-color: black;
+            height: 41px;
+            margin: 30px;
+        }
+
+        .logo {
+            display: flex;
+            padding: 5px 20px;
+            border-right: 1px solid grey;
+        }
+
+        .logo-letter {
+            padding: 0px 3px;
+            color: black;
+            background-color: white;
+            /* border: 1px solid black; */
+            margin: 2px;
+        }
+
+        .signin {
+            color: white;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            border-right: 1px solid grey;
+            padding-left: 20px;
+            width: 13%;
+            /* height: 102%; */
+        }
+
+        .menu {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 35px;
+            border-right: 1px solid grey;
+        }
+
+        .more {
+            width: 130px;
+        }
+
+        .srch-item {
+            width: 17rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .srch {
+            /* border: 1px solid white; */
+            height: 100%;
+            width: 100%;
+        }
+
+        .srch-fld {
+            width: 80%;
+            margin: 5px;
+            height: 76%;
+            border: none;
+        }
+
+        .fa-search {
+            background-color: white;
+            color: black;
+            padding: 5px;
+            padding-top: 4.5px;
+            margin-left: -10px;
+            padding-bottom: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <nav>
+            <div class="logo">
+                <h1 class="logo-letter">B</h1>
+                <h1 class="logo-letter">B</h1>
+                <h1 class="logo-letter">C</h1>
+            </div>
+
+            <div class="signin">
+                <h4><i class="fa-solid fa-user"></i> &nbsp;&nbsp;&nbsp;Sign in</h4>
+            </div>
+            <div class="menu">
+                <h4>News</h4>
+            </div>
+            <div class="menu">
+                <h4>Sport</h4>
+            </div>
+            <div class="menu">
+                <h4>Reel</h4>
+            </div>
+            <div class="menu">
+                <h4>Worklife</h4>
+            </div>
+            <div class="menu">
+                <h4>Travel</h4>
+            </div>
+            <div class="menu">
+                <h4>Future</h4>
+            </div>
+            <div class="menu">
+
+                <div class="more">
+                    <h4>More</h4>
+                </div>
+                <div class="drop">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="srch-item">
+                <div class="srch">
+                    <input class="srch-fld" type="text" placeholder="Search">
+                    <h4 class="fa-solid fa-search"></h4>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+</body>
+
+</html>

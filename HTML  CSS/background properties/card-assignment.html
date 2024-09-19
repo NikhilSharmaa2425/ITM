@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(40, 37, 37);
+            padding: 60px;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+        .card {
+            height: 43vh;
+            /* border: 1px solid white; */
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .immg {
+            height: 65%;
+            width: 100%;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+
+            /* border: 4px solid blue; */
+            border-radius: 10px 10px 0 0;
+            /* background-image: url(hea); */
+        }
+
+        .name {
+            margin: 7px 0;
+            color: white;
+            /* text-transform: uppercase; */
+        }
+
+        .yes {
+            color: yellow;
+        }
+
+        .no {
+            color: white;
+        }
+
+        .price {
+            font-size: 1.3rem;
+            padding-top: 8px;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="container">
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+
+            <div class="card">
+                <div class="immg"><img src="headphones.png" alt=""></div>
+                <h2 class="name">Product Name</h2>
+                <div class="rating">
+                    <span>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star yes" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                        <i class="fa fa-star no" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="price"><span><i class="fa fa-usd" aria-hidden="true"></i>19.99</span></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

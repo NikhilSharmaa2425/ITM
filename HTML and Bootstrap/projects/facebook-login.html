@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+
+    <!-- bootstrap css linking -->
+    <link rel="stylesheet" href="/bootstrap 4/css/bootstrap.css">
+
+    <!-- jquery linkikng  -->
+    <script src="/jquery cdn/hquery-cdn.js"></script>
+
+    <!-- bootstrap js linking  -->
+    <script src="/bootstrap 4/js/bootstrap.js"></script>
+
+
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- kahli -->
+            </div>
+            <div class="col-md-4">
+                <h1 class="text-center text-primary mt-5">facebook</h1>
+                <div class="conatiner p-3 rounded bg-white">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="text-center mt-2">Log in to Facebook</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control my-2" placeholder="Email address or phone number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control my-2" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-block btn-primary my-2">
+                                <h5>Login</h5>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center" data-toggle="modal"
+                                data-target="#exampleModalCenter"><a href="#">Forgotten password?</a></p>
+
+
+                            <!-- Button trigger modal -->
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                                Launch demo modal
+                            </button> -->
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Find your account</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Please enter your email address or mobile number to search for your account.</p>
+                                            <input type="email" placeholder="Email address or mobile number" class="form-control">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <!-- <p class="text-center"><a href="#">Forgotten password?</a></p> -->
+
+
+
+                            <!-- modal is used here -->
+
+                            <!-- Button trigger modal -->
+
+                            <!-- <p class="text-center" data-toggle="modal"
+                            data-target="#exampleModal"><a href="#">Create new Account</a></p> -->
+
+                            <button type="button" class="btn btn-success" data-toggle="modal"
+                                data-target="#exampleModal">
+                                Create new Account
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Sign Up</h3>
+                                            <!-- <p class="modal-title">Its quick and easy</p> -->
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail4"
+                                                            placeholder="Email">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword4"
+                                                            placeholder="Password">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputAddress">Address</label>
+                                                    <input type="text" class="form-control" id="inputAddress"
+                                                        placeholder="1234 Main St">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputAddress2">Address 2</label>
+                                                    <input type="text" class="form-control" id="inputAddress2"
+                                                        placeholder="Apartment, studio, or floor">
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputCity">City</label>
+                                                        <input type="text" class="form-control" id="inputCity">
+                                                    </div>
+                                                    <div class="form-group col-md-4">
+                                                        <label for="inputState">State</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>Choose...</option>
+                                                            <option>...</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-2">
+                                                        <label for="inputZip">Zip</label>
+                                                        <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                        <label class="form-check-label" for="gridCheck">
+                                                            Check me out
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- modal is ended her4e -->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- kahli -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

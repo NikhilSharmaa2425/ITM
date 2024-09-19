@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            padding: 20px;
+            background-image: linear-gradient(rgb(173, 170, 170), rgb(17, 6, 6));
+            height: 100vh;
+        }
+
+        nav {
+            border: 2px solid black;
+            display: flex;
+            background-color: black;
+            height: 41px;
+            width: 100%;
+        }
+
+        .logo {
+            /* border: 1px solid white; */
+            height: 110%;
+            margin-top: -2px;
+            margin-left: 20px;
+        }
+
+        .cnn-logo {
+            height: 100%;
+
+        }
+
+        .menu {
+            color: white;
+            display: flex;
+            width: 78%;
+            /* border: 1px solid red; */
+        }
+        h3 {
+            padding: 8px 10px;
+        }
+        .others {
+            width: 22%;
+            /* border: 1px solid blue; */
+            display: flex;
+        }
+
+        .edition {
+            height: 100%;
+            width: 40%;
+            border: 1 px solid white;
+            color: white;
+            display: flex;
+        }
+      .srch {
+        color: white;
+        width: 20%;
+      }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <nav>
+            <div class="menu">
+                <div class="logo">
+                    <img class="cnn-logo" src="cnn-logo.png" alt="">
+                </div>
+                <h3>World</h3>
+                <h3>US</h3>
+                <h3>Politics</h3>
+                <h3>Business</h3>
+                <h3>Health</h3>
+                <h3>Entertainment</h3>
+                <h3>Style</h3>
+                <h3>Travel</h3>
+                <h3>Sports</h3>
+                <h3>Videos</h3>
+            </div>
+            <div class="others">
+                <div class="edition">
+                    <h3>Edition &nbsp;<i class="fa-solid fa-caret-down"></i></h3>
+                    
+                </div>
+                <div class="srch">
+                    <h3 class="fa fa-search"></h3>
+                </div>
+                <div class="srch">
+                    <h3 class="fa-solid fa-user"></h3>
+                </div>
+                <div class="srch">
+                    <h3 class="fa-solid fa-bars"></h3>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+</body>
+
+</html>

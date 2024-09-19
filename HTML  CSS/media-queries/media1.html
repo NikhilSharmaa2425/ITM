@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first-heading {
+            text-align: center;
+        }
+
+        .tablet {
+            display: none;
+        }
+        .phone {
+            display: none;
+        }
+
+        @media screen and (max-width:800px) {
+            .first-heading {
+                background-color: yellow;
+                color: black;
+            }
+
+            .tablet {
+            display: block;
+        }
+            .computer {
+                display: none;
+            }
+            .phone {
+                display: none;
+            }
+        } 
+
+        @media screen and (max-width:500px) {
+            .first-heading {
+                background-color: red;
+                color: white;
+            }
+
+            .tablet {
+            display: none;
+        }
+            .computer {
+                display: none;
+            }
+            .phone {
+                display: block;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="first-heading">
+        <h1>
+            This is a responsive website
+        </h1>
+        <div class="computer">
+            <h1>
+                this is computer screen
+            </h1>
+        </div>
+        <div class="tablet">
+            <h1>
+                this is tablet screen
+            </h1>
+        </div>
+        <div class="phone">
+            <h1>
+                this is phone screen
+            </h1>
+        </div>
+    </div>
+</body>
+</html>

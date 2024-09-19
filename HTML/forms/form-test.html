@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">
+                <center>
+                    <h2>Novell Service Login</h2>
+                </center>
+            </th>
+        </tr>
+        <form action="post">
+            <tr>
+                <td>
+                    <label for="name">Username :</label>
+                </td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password :</label>
+                </td>
+                <td>
+                    <input type="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="location">City of Employement :</label>
+                </td>
+                <td>
+                    <input type="text" id="location">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="server">Webserver :</label>
+                </td>
+                <td>
+                    <select name="server" id="server">
+                        <option value="india">India</option>
+                        <option value="china">china</option>
+                        <option value="US">US</option>
+                        <option value="Mexico">Mexico</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role">Please specify <br> your role :</label>
+                </td>
+                <td>
+                    <input type="radio" id="tester" name="role" value="tester">
+                    <label for="tester">tester</label><br>
+                    <input type="radio" id="developer" name="role" value="developer">
+                    <label for="developer">developer</label><br>
+                    <input type="radio" id="helper" name="role" value="helper">
+                    <label for="helper">helper</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Single Sign-on <br> to the following :</span>
+                </td>
+                <td>
+                    <input type="checkbox" id="Mail" name="Mail" value="Mail">
+                    <label for="Mail"> Mail</label><br>
+                    <input type="checkbox" id="Payroll" name="Payroll" value="Payroll">
+                    <label for="Payroll"> Payroll</label><br>
+                    <input type="checkbox" id="Self-service" name="Self-service" value="self-service">
+                    <label for="Self-service"> Self-service</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </center>
+                </td>
+            </tr>
+
+        </form>
+    </table>
+</body>
+
+</html>

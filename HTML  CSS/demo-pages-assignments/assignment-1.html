@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            border: 2px solid black;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(./image.png);
+            background-size: cover;
+            padding: 30px 15px;
+        }
+
+        nav {
+            display: flex;
+            /* border: 1px solid white; */
+
+
+        }
+
+        .menu {
+            height: 100%;
+            width: 70%;
+
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-evenly;
+
+
+        }
+
+        li {
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .logo {
+            color: white;
+            float: left;
+            height: 100%;
+            width: 15%;
+            /* text-align: center; */
+        }
+
+        .btn {
+            height: 100%;
+            width: 15%;
+            text-align: end;
+        }
+
+
+        .btn11 {
+            /* height: 100%; */
+            width: 8rem;
+            padding: 6px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(17, 236, 17);
+            color: white;
+            font-size: 1rem;
+        }
+
+        .content {
+            padding: 100px;
+            margin-top: 100px;
+            /* border: 2px solid red; */
+        }
+
+        .landing {
+            font-size: 4rem;
+            color: white;
+            margin: 5px 0;
+        }
+        .description {
+            font-size: 1.1rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .srch {
+            border: 2px solid white;
+            width: 29%;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .txt-fld {
+            /* height: 1rem; */
+            width: 60%;
+            border: none;
+        }
+        .srch-btn {
+            margin-right: -30px;
+            margin-left: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <h1>APPEND</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Pricing</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Dropdown</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="btn">
+                <button class="btn11">Get Started</button>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <h1 class="landing">Welcome To Our Website</h1>
+            <p class="description">We are team of talented designers making websites with bootstrap. </p>
+            <div class="srch">
+                <input class="txt-fld" type="text">
+                <button class="btn11 srch-btn">Search</button>
+            </div>
+
+        </div>
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+j query cdn handles animations, events and as transitions in web applicaions. 
