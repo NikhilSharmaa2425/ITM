@@ -22,4 +22,7 @@ div = document.querySelector("div")
 let newBtn = document.createElement("button");
 newBtn.innerText = "click me!";
 console.log(newBtn);
-div.append(newBtn);
+div.after(newBtn);
+
+let p = document.querySelector("p");
+p.remove()
