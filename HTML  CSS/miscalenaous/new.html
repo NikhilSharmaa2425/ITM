@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 50px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        nav:hover {
+            background-color: #FF8C00;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul {
+            display: flex;
+            gap: 2.9rem;
+            font-size: 20px;
+        }
+
+        /* .child1 {
+            background-image: url(assets/food.png);
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        } */
+
+        /* .container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            border: 5px solid blue;
+        }
+
+        .info-div {
+            height: 100%;
+            width: 47%;
+            padding-left: 200px;
+            padding-bottom: 100px;
+            border: 1px solid red;
+        }
+
+        .info-div h1 {
+            font-size: 4.2rem;
+            padding: 100px 50px 50px 0;
+            font-weight: 800;
+        }
+
+        .info-div p {
+            font-size: 1.3rem;
+            color: grey;
+            padding-bottom: 50px;
+        } */
+
+        .container {
+            display: flex;
+            height: 100vh;
+            /* 100% of the viewport height */
+            width: 100%;
+            /* border: 2px solid blue; */
+        }
+
+        .info-div {
+            flex: 0 0 47%;
+            /* 47% width */
+            height: 100%;
+            /* 100% height of the container */
+            /* background-color: lightgray; */
+            /* Optional, for visibility */
+        }
+
+        .info-div h1 {
+            font-size: 4.2rem;
+            padding: 100px 50px 50px 200px;
+        }
+
+        .info-div p {
+            font-size: 1.3rem;
+            color: grey;
+            padding-bottom: 50px;
+            padding-left: 200px;
+        }
+
+        .info-div button {
+            margin-left: 200px;
+        }
+
+        .img-div {
+            flex: 0 0 53%;
+            /* 53% width */
+            height: 100%;
+            /* 100% height of the container */
+            /* background-color: lightblue; */
+            /* Optional, for visibility */
+            background-image: url(./assets/food.png);
+            background-size: cover;
+
+        }
+
+        
+
+
+
+
+        .btn {
+            background-color: #FF8C00;
+            height: 50px;
+            width: 135px;
+            color: white;
+            border: 1px solid;
+        }
+
+        .btn:hover {
+            font-size: 16px;
+            color: #FF8C00;
+            background-color: white;
+            border: 4px solid #FF8C00;
+            cursor: pointer;
+        }
+
+        .parent3 {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px;
+            background-color: #FF8C00;
+            padding: 60px;
+
+        }
+
+        .Restaurant {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar one -->
+    <nav class="navbar">
+        <img src="assets/logo.png" style="height: 90px;" alt="image not found">
+        <ul class="nav-links">
+            <li><b>Home</b></li>
+            <li><b>Explore Foods</b></li>
+            <li><b>About Us</b></li>
+            <li><b>Reviews</b></li>
+            <li><b>FAQ</b></li>
+            <li><b>Contact Us</b></li>
+        </ul>
+    </nav>
+
+    <!-- Section two -->
+    <section class="background">
+
+        <!-- <div class="child1">
+            <h1>Patience is the <br>secret to good <br>food.</h1>
+            <p>Great food is like having fun. The more you have the <br>more you want.</p>
+            <button class="btn">Order Now</button>
+        </div> -->
+
+        <!-- <div class="conatiner">
+            <div class="info-div">
+                <h1>
+                    Patience is the secret to good food.
+                </h1>
+                <p>
+                    Great food is like having fun. The more you have the more you want.
+                </p>
+                <button class="btn">Order Now</button>
+            </div>
+            <div class="img-div">
+                Content for img-div goes here 
+                <img src="assets/food.png" alt="Image" />
+            </div>
+
+
+
+        </div> -->
+
+        <div class="container">
+            <div class="info-div">
+                <h1>
+                    Patience is the secret to good food.
+                </h1>
+                <p>
+                    Great food is like having fun. The more you have the more you want.
+                </p>
+                <button class="btn">Order Now</button>
+            </div>
+            <div class="img-div">
+                <!-- Content for img-div goes here -->
+                
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- section three -->
+    <section>
+        <div class="parent3">
+            <div>
+                <center>
+                    <h1>500+</h1>
+                </center>
+                <p class="Restaurant">RESTUARANTS</p>
+            </div>
+            <div>
+                <center>
+                    <h1>100K+</h1>
+                </center>
+                <p class="Restaurant">ORDERS SERVED</p>
+            </div>
+            <div>
+                <center>
+                    <h1>200K+</h1>
+                </center>
+                <p class="Restaurant">ORDERS DELIVERED</p>
+            </div>
+            <div>
+                <center>
+                    <h1>200+</h1>
+                </center>
+                <p class="Restaurant">CITIES</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
