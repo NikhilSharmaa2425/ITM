@@ -1,12 +1,21 @@
-import express from "express"
-
+import express from "express";
 import dbConnection from "./src/api/config/db.js"
 import env from "./src/infrastructure/env.js"
 import createRouter from "./src/infrastructure/route.js"
+import cors from "cors"
 
 
 const app = express()
-app.use(express.json())
+
+app.use(cors({
+    origin: "*",
+    methods: ["GET","PUT","PATCH","POST","DELETE"],
+    credentials: true,
+    allowedHeaders: "Content-type,Authorization"
+}))
+
+
+app.use(express.json()) //this is middleware
 dbConnection()
 app.use("/v1",createRouter())
 app.listen(env.PORT,()=>{

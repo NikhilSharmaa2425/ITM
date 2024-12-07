@@ -31,3 +31,9 @@ export const adminSignin = async(req,res) =>{
     }
 }
 
+
+export const AllBookings = async(req,res)=>{
+    try{
+        const res = await
+    }
+}
