@@ -29,10 +29,10 @@ async function dbConnection(){
     await mongoose
        .connect(env.MONGO_URL)
        .then(()=>{
-        console.log("mongo database connected")
+        console.log("mongo dabase connected")
        })
        .catch((err)=>{
-        console.log("Error while connecting mongoose",err)
+        console.log("Error while connecting mogoose",err)
        })
 }
 
